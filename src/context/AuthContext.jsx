@@ -9,7 +9,6 @@ export function AuthProvider({ children }) {
   });
 
   const login = (email, password) => {
-    // Simulated login - in real app use better-auth
     const userData = {
       name: email.split("@")[0].replace(/\./g, " ").replace(/\b\w/g, (c) => c.toUpperCase()),
       email,

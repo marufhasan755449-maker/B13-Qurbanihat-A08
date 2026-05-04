@@ -66,7 +66,7 @@ export default function UpdateProfilePage() {
               </button>
               <button type="submit" disabled={loading}
                 style={{ background: loading ? "#ddd" : "linear-gradient(135deg, #c9890a, #e8a020)", border: "none", color: "#fff", padding: "0.8rem", borderRadius: 10, cursor: loading ? "not-allowed" : "pointer", fontFamily: "'Raleway', sans-serif", fontWeight: 700, fontSize: "0.9rem" }}>
-                {loading ? "⏳ Updating..." : "✅ Update"}
+                {loading ? "Updating..." : "✅ Update"}
               </button>
             </div>
           </form>

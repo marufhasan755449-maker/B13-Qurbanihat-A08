@@ -43,7 +43,6 @@ export default function DetailsPage() {
         <button onClick={() => navigate(-1)} style={{ background: "#fff", border: "1px solid #e8d5b0", color: "#666", padding: "0.5rem 1rem", borderRadius: 8, cursor: "pointer", fontFamily: "'Raleway', sans-serif", fontSize: "0.83rem", marginBottom: "2rem" }}>← Go Back</button>
 
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "2.5rem" }}>
-          {/* Left */}
           <div>
             <div style={{ borderRadius: 16, overflow: "hidden", border: "1px solid #e8d5b0", marginBottom: "1.5rem" }}>
               <img src={animal.image} alt={animal.name} style={{ width: "100%", height: 320, objectFit: "cover" }} />
@@ -68,8 +67,6 @@ export default function DetailsPage() {
               <div style={{ fontFamily: "'Playfair Display', serif", color: "#c9890a", fontSize: "2rem", fontWeight: 700 }}>৳ {animal.price.toLocaleString()}</div>
             </div>
           </div>
-
-          {/* Right - Booking */}
           <div>
             <div style={{ background: "#fff", border: "1px solid #e8d5b0", borderRadius: 16, padding: "2rem", boxShadow: "0 4px 20px rgba(0,0,0,0.06)" }}>
               <h2 style={{ fontFamily: "'Playfair Display', serif", color: "#1a1a1a", fontSize: "1.5rem", marginBottom: "0.4rem" }}>Book This Animal</h2>

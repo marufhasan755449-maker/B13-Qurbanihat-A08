@@ -26,8 +26,6 @@ export default function HomePage() {
 
   return (
     <div style={{ background: "#fff", minHeight: "100vh", fontFamily: "'Raleway', sans-serif" }}>
-
-      {/* Hero */}
       <section style={{ background: "linear-gradient(135deg, #fffbf2 0%, #fdf3e3 50%, #fff8ee 100%)", borderBottom: "1px solid #e8d5b0", padding: "5rem 1.5rem", textAlign: "center", position: "relative", overflow: "hidden" }}>
         <div style={{ position: "absolute", width: 500, height: 500, background: "radial-gradient(circle, rgba(201,137,10,0.08) 0%, transparent 70%)", top: "50%", left: "50%", transform: "translate(-50%,-50%)", borderRadius: "50%", pointerEvents: "none" }} />
 
@@ -37,7 +35,7 @@ export default function HomePage() {
           </div>
 
           <div style={{ display: "inline-block", background: "#fff", border: "1.5px solid #c9890a", borderRadius: 30, padding: "0.35rem 1.1rem", fontSize: "0.8rem", color: "#c9890a", marginBottom: "1.5rem", letterSpacing: "0.1em", fontWeight: 700 }}>
-            🐄 QURBANI 2025 · EID AL-ADHA 1446
+            🐄 QURBANI 2026 · EID AL-ADHA 1446
           </div>
 
           <h1 style={{ fontFamily: "'Playfair Display', serif", fontSize: "clamp(2.5rem, 7vw, 5rem)", color: "#1a1a1a", lineHeight: 1.1, marginBottom: "1rem" }}>
@@ -64,8 +62,6 @@ export default function HomePage() {
               </button>
             </a>
           </div>
-
-          {/* Stats */}
           <div style={{ display: "flex", gap: "2.5rem", justifyContent: "center", marginTop: "3rem", flexWrap: "wrap" }}>
             {[{ num: "500+", label: "Healthy Animals" }, { num: "12+", label: "Trusted Farms" }, { num: "100%", label: "Halal Certified" }, { num: "24/7", label: "Support" }].map((s) => (
               <div key={s.label} style={{ textAlign: "center" }}>
@@ -76,8 +72,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
-      {/* Featured */}
       <section id="featured" style={{ padding: "5rem 1.5rem", maxWidth: 1200, margin: "0 auto" }}>
         <div style={{ textAlign: "center", marginBottom: "3rem" }}>
           <div style={{ color: "#c9890a", fontSize: "0.78rem", letterSpacing: "0.15em", fontWeight: 700, marginBottom: "0.6rem" }}>— FEATURED ANIMALS —</div>
@@ -98,7 +92,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Tips */}
+    
       <section style={{ padding: "5rem 1.5rem", background: "#fdf3e3" }}>
         <div style={{ maxWidth: 1200, margin: "0 auto" }}>
           <div style={{ textAlign: "center", marginBottom: "3rem" }}>
@@ -119,7 +113,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Top Breeds */}
+      
       <section style={{ padding: "5rem 1.5rem", maxWidth: 1200, margin: "0 auto" }}>
         <div style={{ textAlign: "center", marginBottom: "3rem" }}>
           <div style={{ color: "#c9890a", fontSize: "0.78rem", letterSpacing: "0.15em", fontWeight: 700, marginBottom: "0.6rem" }}>— TOP BREEDS —</div>
