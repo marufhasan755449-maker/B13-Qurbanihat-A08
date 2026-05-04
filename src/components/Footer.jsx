@@ -52,10 +52,10 @@ export default function Footer() {
           <h4 style={{ color: "#f5c842", fontFamily: "'Playfair Display', serif", fontSize: "1rem", marginBottom: "1rem", borderBottom: "1px solid #333", paddingBottom: "0.5rem" }}>Contact Info</h4>
           <div style={{ display: "flex", flexDirection: "column", gap: "0.6rem" }}>
             {[
-              { icon: "📍", text: "123 Livestock Market Road, Dhaka-1200" },
-              { icon: "📞", text: "+880 1700-123456" },
-              { icon: "📧", text: "info@qurbanihat.com" },
-              { icon: "🕐", text: "Sat–Thu: 8:00 AM – 8:00 PM" },
+              { text: "123 Livestock Market Road, Dhaka-1200" },
+              { text: "+880 1613-857057" },
+              { text: "info@qurbanihat.com" },
+              { text: "Sat–Thu: 8:00 AM – 8:00 PM" },
             ].map((item, i) => (
               <div key={i} style={{ display: "flex", gap: "0.5rem", alignItems: "flex-start" }}>
                 <span style={{ fontSize: "0.9rem" }}>{item.icon}</span>
@@ -66,7 +66,7 @@ export default function Footer() {
         </div>
       </div>
       <div style={{ borderTop: "1px solid #333", textAlign: "center", padding: "1rem 1.5rem", fontSize: "0.78rem", color: "#555" }}>
-        © 2025 QurbaniHat. All Rights Reserved. | Made with ❤️ for the Ummah
+        © 2026 QurbaniHat. All Rights Reserved. | Made with for the Ummah
       </div>
     </footer>
   );
