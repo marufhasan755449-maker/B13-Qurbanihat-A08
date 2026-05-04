@@ -1,0 +1,17 @@
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #f5f5f5; }
+::-webkit-scrollbar-thumb { background: #c9890a88; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #c9890a; }
+
+@media (max-width: 768px) {
+  .desktop-nav { display: none !important; }
+  .mobile-menu-btn { display: block !important; }
+}
+@media (min-width: 769px) {
+  .mobile-menu { display: none !important; }
+}
+
+@keyframes slideIn {
+  from { transform: translateX(100px); opacity: 0; }
+  to   { transform: translateX(0);     opacity: 1; }
+}
